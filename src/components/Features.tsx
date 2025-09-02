@@ -69,16 +69,7 @@ const Features = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-gradient-bg p-12 rounded-3xl border border-border">
-          <h3 className="text-2xl font-bold text-foreground mb-4">
-            Pronto para acelerar sua carreira?
-          </h3>
-          <p className="text-muted-foreground mb-8 max-w-md mx-auto">Junte-se a nós e transforme sua carreira.</p>
-          <Button variant="hero" size="lg" className="group">
-            Ver Programa Completo
-            <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-          </Button>
-        </div>
+        
       </div>
     </section>;
 };
