@@ -85,7 +85,7 @@ const Footer = () => {
                 <span className="text-2xl font-bold text-foreground">DataCraft</span>
               </div>
               
-              <p className="text-muted-foreground leading-relaxed max-w-md">Tmetodologia prática, projetos reais e mentoria personalizada. Sua jornada para uma carreira de sucesso começa aqui.</p>
+              <p className="text-muted-foreground leading-relaxed max-w-md">Metodologia prática, projetos reais e mentoria personalizada. Sua jornada para uma carreira de sucesso começa aqui.</p>
 
               {/* Contact Info */}
               <div className="space-y-3">
