@@ -3,7 +3,7 @@ import { ArrowRight, ChevronRight, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AnimatedGroup } from '@/components/ui/animated-group';
 import { cn } from '@/lib/utils';
-import heroImage from "@/assets/hero-data.jpg";
+const heroImage = "/lovable-uploads/5e041dcf-75dc-443e-995f-f418b4e04216.png";
 const transitionVariants = {
   container: {
     hidden: {
@@ -133,7 +133,7 @@ const Hero = () => {
                             <div className="relative -mr-56 mt-8 overflow-hidden px-2 sm:mr-0 sm:mt-12 md:mt-20">
                                 <div aria-hidden className="bg-gradient-to-b to-background absolute inset-0 z-10 from-transparent from-35%" />
                                 <div className="inset-shadow-2xs ring-background dark:inset-shadow-white/20 bg-background relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-4 shadow-lg shadow-zinc-950/15 ring-1">
-                                    <img className="bg-background aspect-15/8 relative rounded-2xl" src={heroImage} alt="Engenharia e Análise de Dados - Dashboard com gráficos e métricas" width="2700" height="1440" />
+                                    <img className="bg-background aspect-15/8 relative rounded-2xl" src={heroImage} alt="Profissional de dados analisando estatísticas e gráficos em ambiente moderno" width="2700" height="1440" />
                                 </div>
                             </div>
                         </AnimatedGroup>
