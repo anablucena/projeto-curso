@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { AnimatedGroup } from '@/components/ui/animated-group';
+import { AuroraBackground } from '@/components/ui/aurora-background';
 
 const transitionVariants = {
   container: {
@@ -36,9 +37,9 @@ const transitionVariants = {
 
 const Hero = () => {
   return (
-    <main className="overflow-hidden bg-background">
-      <section className="bg-background">
-        <div className="relative pt-24 md:pt-36 bg-background">
+    <AuroraBackground className="overflow-hidden">
+      <section className="relative">
+        <div className="relative pt-24 md:pt-36">
           <div className="mx-auto max-w-7xl px-6">
             <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
               <AnimatedGroup variants={transitionVariants}>
@@ -118,7 +119,7 @@ const Hero = () => {
           </AnimatedGroup>
         </div>
       </section>
-    </main>
+    </AuroraBackground>
   );
 };
 
