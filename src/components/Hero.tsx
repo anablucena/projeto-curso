@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { AnimatedGroup } from "@/components/ui/animated-group";
 import { AuroraBackground } from "./ui/aurora-background";
+import { StarBorder } from "@/components/ui/star-border";
 
 const transitionVariants = {
   container: {
@@ -85,26 +86,12 @@ const Hero = () => {
                 }}
                 className="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row"
               >
-                <div
-                  key={1}
-                  className="bg-foreground/10 rounded-[14px] border border-border p-0.2"
-                >
-                  <Button
-                    size="lg"
-                    className="rounded-x4 px-10 text-base"
-                    variant="hero"
-                  >
-                    <span className="text-nowrap">Começar Agora</span>
-                  </Button>
-                </div>
-                <Button
-                  key={2}
-                  size="lg"
-                  variant="ghost"
-                  className="h-10.5 rounded-xl px-5"
-                >
+                <StarBorder key={1} className="inline-block">
+                  <span className="text-nowrap">Começar Agora</span>
+                </StarBorder>
+                <StarBorder key={2} className="inline-block">
                   <span className="text-nowrap">Quero Saber Mais</span>
-                </Button>
+                </StarBorder>
               </AnimatedGroup>
             </div>
           </div>
