@@ -18,10 +18,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">DC</span>
+            <div>
             </div>
-            <span className="text-xl font-bold text-foreground">DataCraft</span>
+            <img src="/nx_tech.png" alt="logo nexus tech" className="w-20 h-auto" />
           </div>
 
           {/* Desktop Navigation */}
