@@ -122,7 +122,7 @@ const Hero = () => {
               ...transitionVariants,
             }}
           >
-            <div className="relative -mr-56 mt-8 overflow-hidden px-2 sm:mr-0 sm:mt-12 md:mt-20">
+            <div className="relative -mr-56 mt-8 overflow-hidden px-2 sm:mr-0 sm:mt-12 md:mt-20 mb-12">
               <div
                 aria-hidden
                 className="bg-gradient-to-b from-transparent from-35% to-background absolute inset-0 z-10"
