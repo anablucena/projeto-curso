@@ -37,8 +37,8 @@ const transitionVariants = {
 
 const Hero = () => {
   return (
-    <AuroraBackground className="overflow-hidden">
-      <section className="relative">
+    <AuroraBackground className="pb-20">
+      <section className="relative w-full">
         <div className="relative pt-24 md:pt-36">
           <div className="mx-auto max-w-7xl px-6">
             <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
