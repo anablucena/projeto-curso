@@ -51,7 +51,7 @@ const Hero = () => {
                   <span className="block h-4 w-0.5 border-l border-border"></span>
 
                   <div className="bg-background group-hover:bg-muted size-6 overflow-hidden rounded-full duration-500">
-                    <div className="flex w-12 -translate-x-1/2 duration-500 ease-in-out group-hover:translate-x-0">
+                    <div className="flex w-12 -translate-x-6 duration-500 ease-in-out group-hover:translate-x-0">
                       <span className="flex size-6">
                         <ArrowRight className="m-auto size-3" />
                       </span>
