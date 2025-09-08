@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Clock, Star, Users } from "lucide-react";
 const CTA = () => {
   return (
-    <section className="py-24 px-6 bg-[linear-gradient(to_bottom,#f5f5f5,#e8e8e8)] dark:bg-[linear-gradient(to_bottom,#333,#898e8e)]">
+    <section className="py-24 px-6 bg-black">
       <div className="max-w-4xl mx-auto text-center">
         <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl p-12 border border-border/50">
           <div className="flex justify-center mb-6">
