@@ -32,7 +32,7 @@ const Features = () => {
     description: "Prepare-se para certificações da indústria e receba suporte completo na transição de carreira.",
     highlights: ["Mentoria 1:1", "Portfolio", "Networking"]
   }];
-  return <section id="recursos" className="py-20 bg-background">
+  return <section id="recursos" className="py-20 bg-[linear-gradient(to_bottom,#e8e8e8,#f5f5f5)] dark:bg-[linear-gradient(to_bottom,#898e8e,#333)]">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium mb-4">Ensinamos as tecnologias mais ultilizadas do mercado </div>

@@ -105,7 +105,7 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="bg-background border-t border-border">
+    <footer className="bg-[linear-gradient(to_bottom,#e8e8e8,#d5d5d5)] dark:bg-[linear-gradient(to_bottom,#898e8e,#666)] border-t border-border">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Main Footer */}
         <div className="py-16">
