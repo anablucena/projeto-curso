@@ -44,22 +44,22 @@ const Features = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {features.map((feature, index) => <div key={index} className="group relative bg-card p-8 rounded-2xl shadow-card hover:shadow-hero transition-smooth border border-border hover:border-primary/20">
+          {features.map((feature, index) => <div key={index} className="group relative bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:border-primary/30 transition-all duration-300 animate-fade-up" style={{animationDelay: `${index * 0.1}s`}}>
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-gradient-hero rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-bounce">
+                <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center mr-4 group-hover:scale-110 transition-all duration-300">
                   <feature.icon className="h-6 w-6 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-foreground">{feature.title}</h3>
+                <h3 className="text-xl font-semibold text-white">{feature.title}</h3>
               </div>
               
-              <p className="text-muted-foreground mb-6 leading-relaxed">
+              <p className="text-gray-300 mb-6 leading-relaxed">
                 {feature.description}
               </p>
 
               <div className="space-y-2">
                 {feature.highlights.map((highlight, idx) => <div key={idx} className="flex items-center text-sm">
-                    <CheckCircle className="h-4 w-4 text-accent mr-2 flex-shrink-0" />
-                    <span className="text-muted-foreground">{highlight}</span>
+                    <CheckCircle className="h-4 w-4 text-primary mr-2 flex-shrink-0" />
+                    <span className="text-gray-400">{highlight}</span>
                   </div>)}
               </div>
 
