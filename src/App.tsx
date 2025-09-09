@@ -11,7 +11,7 @@ const queryClient = new QueryClient();
 
 const App = () => {
   React.useEffect(() => {
-    document.documentElement.classList.add('dark');
+    document.documentElement.classList.add("dark");
   }, []);
 
   return (
@@ -20,7 +20,9 @@ const App = () => {
         <div className="dark">
           <Toaster />
           <Sonner />
-          <HashRouter> {/* ← MUDANÇA AQUI */}
+          <HashRouter>
+            {" "}
+            {/* ← MUDANÇA AQUI */}
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="*" element={<NotFound />} />
