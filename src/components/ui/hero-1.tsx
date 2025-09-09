@@ -64,6 +64,7 @@ export function Hero({
       {/* Title */}
       <h1
         className="text-balance 
+        whitespace-pre-line
         bg-gradient-to-br from-black from-30% to-black/40 
         bg-clip-text py-6 text-5xl font-semibold leading-none tracking-tighter 
         text-transparent sm:text-6xl md:text-7xl lg:text-8xl 
