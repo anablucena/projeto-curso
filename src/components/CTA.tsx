@@ -4,7 +4,7 @@ const CTA = () => {
   return (
     <section className="py-24 px-6 bg-black">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl p-12 border border-border/50">
+        <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl p-12 border border-border/50 animate-fade-in">
           <div className="flex justify-center mb-6">
             <div className="p-3 rounded-2xl bg-primary/10">
               <Star className="h-8 w-8 text-primary" />
