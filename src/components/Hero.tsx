@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <NewHero
       eyebrow="Curso Completo de Engenharia de Dados"
-      title={"Domine a Engenharia\n e Análise de Dados"}
+      title={"Domine a Engenharia\ne Análise de Dados"}
       subtitle="Transforme sua carreira com metodologias da indústria e ferramentas modernas."
       ctaLabel="Começar Agora"
       ctaHref="#"

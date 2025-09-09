@@ -24,7 +24,7 @@ export function Hero({
       className="relative mx-auto w-full pt-40 px-6 text-center md:px-8 
       min-h-[calc(100vh-40px)] overflow-hidden 
       bg-[linear-gradient(to_bottom,#fff,#ffffff_50%,#e8e8e8_88%)]  
-      dark:bg-[linear-gradient(to_bottom,#000,#0000_30%,#898e8e_78%,#ffffff_99%_50%)] 
+      dark:bg-[linear-gradient(to_bottom,#000,transparent_30%,#898e8e_78%,#ffffff_50%)] 
       rounded-b-xl"
     >
       {/* Grid BG */}
