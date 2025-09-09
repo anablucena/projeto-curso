@@ -63,7 +63,7 @@ export function Hero({
 
       {/* Title */}
       <h1
-        className="animate-fade-in text-balance 
+        className="text-balance 
         bg-gradient-to-br from-black from-30% to-black/40 
         bg-clip-text py-6 text-5xl font-semibold leading-none tracking-tighter 
         text-transparent sm:text-6xl md:text-7xl lg:text-8xl 
@@ -74,7 +74,7 @@ export function Hero({
 
       {/* Subtitle */}
       <p
-        className="animate-fade-in mb-12 text-balance 
+        className="mb-12 text-balance 
         text-lg tracking-tight text-gray-600 dark:text-gray-400 
         md:text-xl"
       >
