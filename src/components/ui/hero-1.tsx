@@ -23,8 +23,8 @@ export function Hero({
       id="hero"
       className="relative mx-auto w-full pt-40 px-6 text-center md:px-8 
       min-h-[calc(100vh-40px)] overflow-hidden 
-      bg-[linear-gradient(to_bottom,#000,#111_50%,#222_100%)]  
-      dark:bg-[linear-gradient(to_bottom,#000,#111_50%,#222_100%)] 
+      bg-[linear-gradient(to_bottom,#000,#111_30%,#333_70%,#666_100%)]  
+      dark:bg-[linear-gradient(to_bottom,#000,#111_30%,#333_70%,#666_100%)] 
       rounded-b-xl"
     >
       {/* Grid BG */}
