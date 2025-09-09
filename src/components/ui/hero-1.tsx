@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
-import { ChevronRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { ChevronRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 interface HeroProps {
-  eyebrow?: string
-  title: string
-  subtitle: string
-  ctaLabel?: string
-  ctaHref?: string
+  eyebrow?: string;
+  title: string;
+  subtitle: string;
+  ctaLabel?: string;
+  ctaHref?: string;
 }
 
 export function Hero({
@@ -63,7 +63,8 @@ export function Hero({
 
       {/* Title */}
       <h1
-        className="text-balance 
+        className="text-balance
+        whitespace-pre-line 
         bg-gradient-to-br from-black from-30% to-black/40 
         bg-clip-text py-6 text-5xl font-semibold leading-none tracking-tighter 
         text-transparent sm:text-6xl md:text-7xl lg:text-8xl 
@@ -100,5 +101,5 @@ export function Hero({
         after:[background:linear-gradient(to_top,hsl(var(--background))_10%,transparent)]"
       />
     </section>
-  )
+  );
 }

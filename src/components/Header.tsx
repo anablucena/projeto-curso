@@ -14,11 +14,11 @@ const Header = () => {
     <div className="relative">
       <NavBar items={navItems} />
       {/* Logo no canto superior direito */}
-      <div className="fixed top-4 right-6 z-50">
+      <div className="fixed top-4 left-6 z-50">
         <img 
-          src="/lovable-uploads/76beac64-f6b7-436f-abdc-c961fc3e3625.png" 
+          src="/public/nx_academy_logo.png" 
           alt="NX Academy Logo" 
-          className="h-8 w-auto"
+          className="h-16 w-auto"
         />
       </div>
     </div>

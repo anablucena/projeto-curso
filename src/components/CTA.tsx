@@ -28,14 +28,14 @@ const CTA = () => {
             
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Clock className="h-4 w-4" />
-              <span>Acesso imediato • Garantia de 30 dias</span>
+              <span>Acesso imediato</span>
             </div>
           </div>
           
           <div className="mt-8 flex items-center justify-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-1">
               <Users className="h-4 w-4" />
-              <span>10.000+ alunos</span>
+              <span>quantidadade de alunos</span>
             </div>
             <div className="flex items-center gap-1">
               <Star className="h-4 w-4 fill-current text-yellow-500" />

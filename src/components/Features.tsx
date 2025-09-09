@@ -37,8 +37,7 @@ const Features = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium mb-4">Ensinamos as tecnologias mais ultilizadas do mercado </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            Tudo o que você precisa para se tornar um
-            <span className="bg-gradient-hero bg-clip-text text-transparent"> Expert em Dados</span>
+            Tudo o que você precisa para se tornar <span className="">profissional em dados</span> 
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">Foco em resultados práticos e empregabilidade.</p>
         </div>

@@ -115,9 +115,9 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <div>
                   <img
-                    src="/nx_tech.png"
-                    alt="logo nexus tech"
-                    className="flex items-start w-28 h-auto"
+                    src="/nx_academy_logo.png"
+                    alt="logo nx academy"
+                    className="flex items-start w-36 h-auto"
                   />
                 </div>
               </div>
@@ -211,7 +211,7 @@ const Footer = () => {
         <div className="py-6 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground">
-              © 2024 DataCraft. Todos os direitos reservados.
+              © 2024 NXacademy. Todos os direitos reservados.
             </div>
 
             <div className="flex flex-wrap gap-6">
